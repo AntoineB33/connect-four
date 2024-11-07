@@ -1,0 +1,72 @@
+.connect-four {
+    text-align: center;
+  }
+  
+  .board {
+    display: inline-block;
+    border: 2px solid #333;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #f0f0f0;
+  }
+  
+  .chip {
+    width: 60px; /* Size of the circle */
+    height: 60px;
+    border-radius: 50%; /* Makes it a circle */
+    position: absolute; /* Positioning relative to the cell */
+  }
+  
+  .chip.R {
+    background-color: red;
+  }
+  
+  .chip.Y {
+    background-color: yellow;
+  }
+  
+  .winner {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .which-player {
+    display: flex;
+    align-items: center; /* Vertically align */
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .player-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Makes it a circle */
+    margin-right: 10px; /* Space between circle and player name */
+  }
+  
+  .player-circle.R {
+    background-color: red;
+  }
+  
+  .player-circle.Y {
+    background-color: yellow;
+  }
